@@ -1,20 +1,24 @@
-/* src/App.css */
+
 body {
-  background-color: #1c1d1e;
-  margin: 0;
-  padding: 0;
+ background: linear-gradient(to right, #0acdfeb7 0%, #495bffad 100%);
+  /* margin: 0;
+  padding: 0; */
   font-family: 'Roboto', Arial, sans-serif;
+
+  height: 190%;
 }
 
 .App {
   text-align: center;
-  margin: 5% auto;
-  max-width: 800px;
+  /* margin: 5% auto; */
+  /* max-width: 800px; */
   padding: 40px;
-  background-color: #265fb5;
+  background-color: #ffffff;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  height: 900px;
+  background: linear-gradient(to right, #0acdfeb7 0%, #495bffad 100%);
 }
 
 nav ul {
@@ -32,14 +36,14 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #1e90ff;
+  color: #eff2f6;
   font-weight: bold;
   font-size: 18px;
   transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-  color: #ff6347;
+  color: #00f6c0;
 }
 
 form {
@@ -58,6 +62,7 @@ input {
   width: 80%;
   font-size: 18px;
   transition: all 0.3s ease-in-out;
+ 
 }
 
 input:focus {
@@ -88,8 +93,9 @@ ul {
 }
 
 li {
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
+  /* background-color: #d566d2; */
+  background: radial-gradient(circle at 50.3% 44.5%, rgb(176, 105, 214) 0%, rgb(145, 59, 134) 100.2%);;
+  /* border: 1px solid #ddd; */
   border-radius: 10px;
   padding: 15px;
   margin: 10px 0;
@@ -104,4 +110,24 @@ li:hover {
 }
 p,h1{
   color: white;
+}
+
+.vision{
+  padding-top: 30px; 
+        
+  text-align: start;
+  font-size:30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  color: white;
+}
+.list{
+  background-color: rgb(153, 228, 219);
+  width: 50%;
+  margin-left: 25%;
+
+  border-radius: 5%;
+}
+.active button {
+    background: radial-gradient(circle at 50.3% 44.5%, rgb(176, 105, 214) 0%, rgb(145, 59, 134) 100.2%);;
 }

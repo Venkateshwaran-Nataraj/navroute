@@ -1,11 +1,15 @@
 import React from 'react'
+import pic from './pic.png';
 
  function About() {
   return (
     <div>
      
-      {/* <h1 >This Page is all about list</h1> */}
-<img src='https://bucketlistjourney.net/wp-content/uploads/2021/07/Make-a-bucket-list-1.jpg ' alt='pic' width='300px' ></img>
+
+     <img 
+        src={pic} 
+        alt="Description of local image" 
+        width={1000}  height={500}     />
 
     </div>
   )

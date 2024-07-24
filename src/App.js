@@ -15,13 +15,22 @@ function App() {
         <nav>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/"
+              
+
+              className={(isActive)=>(isActive?'active':'')}
+              
+              >
+              
+              
+              
+              Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about"    className={(isActive)=>(isActive?'active':'')}>About</NavLink>
             </li>
             <li>
-              <NavLink to="/List">List</NavLink>
+              <NavLink to="/List"    className={(isActive)=>(isActive?'active':'')}>List</NavLink>
             </li>
           </ul>
         </nav>

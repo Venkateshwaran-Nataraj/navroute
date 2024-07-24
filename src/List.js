@@ -15,7 +15,7 @@ function List () {
   }, [List]);
 
   return (
-    <div className="App">
+    <div className="list">
       <h1>List </h1>
       <ListForm addList={addList} />
       <ul>
